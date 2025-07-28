@@ -4,7 +4,7 @@ namespace Engtuncay\PhpCiUtils\FiCiDb;
 
 use CodeIgniter\Database\BaseConnection;
 use Engtuncay\Phputils8\FiDto\Fdr;
-use Engtuncay\Phputils8\Pdo\FiQuery;
+use Engtuncay\Phputils8\FiDb\FiQuery;
 
 class FiCiDb
 {
