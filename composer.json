@@ -1,0 +1,38 @@
+{
+  "name": "engtuncay/phpciutils",
+  "description": "OrakSoft Php CodeIgniter Utility Library (Php 8)",
+  "type": "library",
+  "version": "0.0.1",
+  "require": {
+    "php": ">=8.1",
+	"codeigniter4/framework": "^4.0",
+	"engtuncay/phputils8": "^0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Engtuncay\\PhpCiUtils\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Tuncay Orak",
+      "email": "tuncayorak@gmail.com"
+    }
+  ],
+  "archive": {
+    "exclude": [
+      ".git",
+      ".gitignore",
+      ".gitattributes",
+      "tests",
+      "phpunit.xml.dist",
+      "*.md",
+      "readme.md",
+      "fi-logs"
+    ]
+  }
+}

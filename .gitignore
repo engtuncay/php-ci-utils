@@ -1,0 +1,89 @@
+# ===========================
+# PHP ve Composer Dosyaları
+# ===========================
+
+# Composer bağımlılık klasörü (Bu klasör Git'e eklenmez)
+vendor/
+
+# Composer cache dosyaları
+composer.lock
+
+# Composer'ın otomatik oluşturduğu dosyalar (kendi ihtiyaçlarına göre bu kısmı tutabilirsin veya çıkarabilirsin)
+composer.phar
+
+# .env dosyaları (gizli bilgileri içerir)
+.env
+.env.local
+.env.*.local
+
+# PHP Hata ve Cache dosyaları
+*.log
+*.cache
+*.tmp
+*.pid
+*.seed
+
+# PHPUnit test sonuçları ve cache dosyaları
+phpunit.result.cache
+phpunit.xml
+phpunit.xml.dist
+
+# ===========================
+# PhpStorm IDE Ayarları
+# ===========================
+
+# PhpStorm proje klasörü (kişisel ayar dosyaları hariç)
+.idea/*
+#!.idea/codeStyles
+#!.idea/runConfigurations
+#!.idea/inspectionProfiles
+#!.idea/php.xml
+#!.idea/misc.xml
+
+# PhpStorm kişisel dosyaları (bu dosyalar kişisel ayarları içerir)
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+# PhpStorm modül dosyaları
+*.iml
+
+# ===========================
+# Sistem ve Genel Dosyalar
+# ===========================
+
+# MacOS sistem dosyaları
+.DS_Store
+
+# Windows sistem dosyaları
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux temporary dosyalar
+*~
+
+# ===========================
+# Node.js ve Frontend Bağımlılıkları
+# ===========================
+
+# Node.js bağımlılık klasörü
+node_modules/
+
+# Paket yöneticisi lock dosyaları
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+
+# ===========================
+# Derleme ve Build Çıktıları
+# ===========================
+
+# Build ve dağıtım dosyaları
+build/
+dist/
+
+# Cache ve geçici dosyalar
+.cache/
+tmp/
+/fi-logs/

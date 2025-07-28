@@ -1,0 +1,8 @@
+# Git attributes for export
+.git export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore
+tests/ export-ignore
+phpunit.xml.dist export-ignore
+*.md export-ignore
+fi-logs/ export-ignore
